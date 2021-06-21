@@ -1,0 +1,79 @@
+@media screen and (max-width: 75rem) {
+  .grid-landscape-image {
+    height: 12em;
+    width: 18em;
+  }
+  
+  .grid-portrait-image {
+    height: 12em;
+    width: 8em;
+  }
+  
+  #l1 {
+    font-size: 300% !important;
+  }
+}
+
+@media screen and (max-width: 63rem) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 50rem) {
+  #grid-container {
+    grid-gap: 1rem;
+  }
+  
+  .subscription-plan {
+    width: 15rem;
+  }
+  
+  .carousel-inner {
+    width: 50% !important;
+  }
+  
+  .card-body {
+    padding: .5rem !important;
+  }
+}
+
+@media screen and (max-width: 44rem) {
+  .grid-landscape-image {
+    height: 8em;
+    width: 12em;
+  }
+  
+  .grid-portrait-image {
+    height: 8em;
+    width: 5.4em;
+  }
+  
+  #l1 {
+    font-size: 200% !important;
+  }
+  
+  .subscription-plan {
+    font-size: 10px;
+  }
+  
+  .carousel-inner {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 44rem) {
+  .grid-landscape-image {
+    height: 6em;
+    width: 9em;
+  }
+  
+  .grid-portrait-image {
+    height: 6em;
+    width: 4em;
+  }
+  
+  #l1 {
+    font-size: 150% !important;
+  }
+}

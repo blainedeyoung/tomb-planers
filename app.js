@@ -42,8 +42,6 @@ function rearrange() {
   //loop controller to skip a value of j after landscape images
   let con = false;
   
-  console.log(rnsL);
-  console.log(rnsP);
   //set grid-area for each image
   for(let i = 1; i < 4; i++) {
     for(let j = 1; j < 7; j++) {
@@ -53,20 +51,11 @@ function rearrange() {
         continue;
       } else if (j === 6) {
         $("#p" + rnsP.pop()).css("grid-area", i + " / 6 / span 1 / span 1");
-        console.log("portrait on end");
-        console.log(i);
-        console.log(j);
       } else if (rnsL.length > 0 && coin >= .5) {
         $("#l" + rnsL.pop()).css("grid-area", i + " / " + j + " / span 1 / span 2");
         con = true;
-        console.log("landscape");
-        console.log(i);
-        console.log(j);
       } else if (rnsP.length > 0) {
         $("#p" + rnsP.pop()).css("grid-area", i + " / " + j + " / span 1 / span 1");
-        console.log("portrait");
-        console.log(i);
-        console.log(j);
       } else {
         $("#l" + rnsL.pop()).css("grid-area", i + " / " + j + " / span 1 / span 2");
         con = true;

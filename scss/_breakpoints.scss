@@ -63,6 +63,10 @@
 }
 
 @media screen and (max-width: 44rem) {
+  #grid-container {
+    grid-gap: .25rem;
+  }
+  
   .grid-landscape-image {
     height: 6em;
     width: 9em;
@@ -71,6 +75,10 @@
   .grid-portrait-image {
     height: 6em;
     width: 4em;
+  }
+  
+  .card-body {
+    padding: .25rem !important;
   }
   
   #l1 {

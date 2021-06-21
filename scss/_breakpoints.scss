@@ -56,6 +56,11 @@
   .subscription-plan {
     font-size: 10px;
   }
+
+  .card-text {
+    padding-left: 1rem;
+    align-self: start;
+  }
   
   .carousel-inner {
     width: 100% !important;
@@ -80,11 +85,6 @@
   .card-body {
     padding: .25rem !important;
   }
-
-  .card-text {
-    padding-left: .5rem;
-    align-self: start;
-  }  
   
   #l1 {
     font-size: 150% !important;

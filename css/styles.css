@@ -7290,6 +7290,11 @@ i {
   .subscription-plan {
     font-size: 10px; }
 
+  .card-text {
+    padding-left: 1rem;
+    -ms-flex-item-align: start;
+        align-self: start; }
+
   .carousel-inner {
     width: 100% !important; } }
 @media screen and (max-width: 44rem) {
@@ -7306,11 +7311,6 @@ i {
 
   .card-body {
     padding: .25rem !important; }
-
-  .card-text {
-    padding-left: .5rem;
-    -ms-flex-item-align: start;
-        align-self: start; }
 
   #l1 {
     font-size: 150% !important; } }

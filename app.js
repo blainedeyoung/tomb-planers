@@ -71,7 +71,4 @@ function rearrange() {
     }, 10000);
 }
     
-// make the function recur after ten seconds
-setTimeout(() => {
-  rearrange();
-}, 10000);
+rearrange();
